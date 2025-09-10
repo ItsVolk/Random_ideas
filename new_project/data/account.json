@@ -1,0 +1,22 @@
+[
+    {
+        "username": "Alan Smith",
+        "email": "alansmithdeeptry@gmail.com",
+        "password": "123456789"
+    },
+    {
+        "username": "Eka",
+        "email": "kakaka2@gmail.com",
+        "password": "987654321"
+    },
+    {
+        "username": "Volker",
+        "email": "volkervolk@gmail.com",
+        "password": "volk"
+    },
+    {
+        "username": "Lily",
+        "email": "lilli@gmail.com",
+        "password": "lili"
+    }
+]

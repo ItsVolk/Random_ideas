@@ -1,0 +1,12 @@
+QMessageBox {
+    background-color: #1e1e1e;
+    color: #b0b0b0;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+}
+
+QMessageBox QLabel {
+    color: #b0b0b0;
+    font-weight: bold;
+}

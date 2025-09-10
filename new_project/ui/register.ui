@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-480</x>
+      <y>-330</y>
+      <width>1871</width>
+      <height>1171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(&quot;C:/Users/PC/OneDrive/Desktop/new_project/assets/heh.jpg&quot;);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>30</y>
+      <width>541</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(30, 30, 30, 228);
+border-radius: 10px;</string>
+    </property>
+    <widget class="QLineEdit" name="passwordlineEdit">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>270</y>
+       <width>277</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #2c2c2c;
+border-radius: 4px;
+color: #b0b0b0</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="submitpushButton">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>460</y>
+       <width>381</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #c62828;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+    background-color: #b71c1c;
+}</string>
+     </property>
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="username_label">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0;
+border: none;</string>
+     </property>
+     <property name="text">
+      <string>Username: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="email_label">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>180</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0;
+border: none;</string>
+     </property>
+     <property name="text">
+      <string>Email   :</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="emaillineEdit">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>180</y>
+       <width>277</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #2c2c2c;
+border-radius: 4px;
+color: #b0b0b0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="usernamelineEdit">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>90</y>
+       <width>277</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #2c2c2c;
+border-radius: 4px;
+color: #b0b0b0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="password_label">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>270</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0;
+border: none;</string>
+     </property>
+     <property name="text">
+      <string>Password: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>540</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;Cascadia Code&quot;;
+color: #b0b0b0;
+border: none;</string>
+     </property>
+     <property name="text">
+      <string>Already have an account?</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="loginpushButton">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>530</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background: transparent;
+    color: #b0b0b0;
+    border: none;
+    padding: 8px 16px;
+	font: 10pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover {
+	text-decoration: underline;
+	color: #ff5252;
+}</string>
+     </property>
+     <property name="text">
+      <string>Login</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>360</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: 	#b0b0b0</string>
+     </property>
+     <property name="text">
+      <string>Confirm :</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="confirmlineEdit">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>360</y>
+       <width>277</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #2c2c2c;
+border-radius: 4px;
+color: #b0b0b0</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
